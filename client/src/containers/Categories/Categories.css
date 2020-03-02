@@ -1,0 +1,14 @@
+.category__list {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+}
+
+.content__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aeedf8;
+}

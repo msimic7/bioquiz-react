@@ -1,0 +1,13 @@
+{
+  "name": "bioquiz",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "msimic7 <simicmilan017@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  }
+}

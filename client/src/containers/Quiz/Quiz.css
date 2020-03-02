@@ -1,0 +1,47 @@
+.quiz__answers {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.question {
+  font-size: 2.5rem;
+}
+
+.btn__next {
+  height: 20%;
+  width: 50%;
+  border: 1px solid red;
+  color: lightblue;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn__submit {
+  cursor: pointer;
+  height: 20%;
+  width: 50%;
+  border: 1px solid red;
+  color: lightblue;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question__number {
+  height: 60%;
+  width: 60%;
+  align-self: flex-start;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #aeedf8;
+  background: rgba(2, 13, 15, 0.8);
+}

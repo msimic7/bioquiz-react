@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: url('./img/body.jpg') no-repeat center/cover;
+}
